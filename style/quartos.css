@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+    border:0;
+    padding:0;}
+
+body {
+    background-color: rgba(220, 170, 109, 0.284);
+}
+
+.main {
+    width: 700px;
+    height: 1000px;
+    background-color: rgba(50, 107, 193, 0.37);
+    margin: auto;
+}
+
+.titulos {
+    text-align:center;
+    font-family: "Sofia", sans-serif;
+    font-size: 40px;
+}
+
+.main > img {
+    display: inline-block;
+    width: 450px;
+    margin:22px 24px;
+}
+
+.descricao {
+    display: inline-block;
+    width:120px;
+    height: 100px;
+    background-color: rgba(237, 136, 156, 0.745);
+    border-radius: 3px;
+    margin: ;
+}
+
+.descricao >p {
+    text-align:left;
+    margin: auto;
+}
