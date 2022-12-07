@@ -9,13 +9,13 @@
 .nav {
     width: 80vw;
     height: 200px;
-    background-color: #ffffff;
-    display: inline-block;
+    background-color: #ffffffcf;;
     margin-left: 10vw;
     margin-right: 10vw;
     margin-top: 1vw;
     border-radius: 15px;
     overflow: hidden;
+    display: flex;
 }
 
 .nav > img {
@@ -23,17 +23,35 @@
     height: 200px;
     width: 200px;
     overflow: hidden;
-    padding-left: 20px;
+    margin-left: 15px;
+    margin-right: 20px;
 }
 
 .nav > a {
-    font-size: 22pt;
-    color: black;
-    padding-right: 30px;
+    font-size: 40pt;
+    color: #daa520;
+    padding-right: 20px;
+    font-family: 'Bonheur Royale', cursive;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    text-decoration: none;
+}
 
+.conta {
+    display: flex;
+}
+
+.conta > a {
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 40pt;
+    color: #daa520;
 }
 
 body {
-    background-color: black;
+    background-image: url(../img/background-site.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
